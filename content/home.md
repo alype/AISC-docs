@@ -2,11 +2,11 @@
 title: Hello World!
 description: I am the home page of this project
 layout: libdoc_page.liquid
-permalink: index.html
+permalink: /index.html
 tags:
     - widgets
 ---
-{% alert 'It seems to be the beginning of a great documentation story!', 'success', 'Howdy!' %}
+{% alert 'It seems to be the beginning of a great documentation story!', 'warning', 'Howdy!' %}
 
 ## Let’s start!
 

@@ -2,7 +2,7 @@
 title: Hello Page!
 description: I am the first page linked into the primary navigation
 layout: libdoc_page.liquid
-permalink: hello-page/index.html
+permalink: /hello/{{ title | slugify }}/index.html
 eleventyNavigation:
     key: Hello Page
 tags:
