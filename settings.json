@@ -1,10 +1,13 @@
 {
-    "siteTitle": "My Project Title",
-    "siteDescription": "This is the description of my project title",
-    "author": "John Doe",
+    "lang": "fr",
+    "siteTitle": "Ma documentation AISC",
+    "siteDescription": "Un site pour documenter mes cours d'AISC",
+    "author": "Alype",
     "faviconUrl": "/assets/myfavicon.png",
     "blogTitle": "Blog",
-    "blogDescription": "Here is the description of the blog part",
+    "blogDescription": "Un blog sur mes trouvailles en admin-sys.",
+    "blogAuthor": "Alype",
+    "blogSlug": "posts",
     "productionUrl": "https://eleventy-libdoc.netlify.app",
     "customLinks": [
         {
@@ -12,21 +15,26 @@
             "text": "Atom feed"
         },
         {
-            "url": "https://github.com/ita-design-system/eleventy-libdoc",
+            "url": "https://github.com/alype",
             "text": "GitHub"
-        },
-        {
-            "url": "#",
-            "text": "Bluesky"
-        },
-        {
-            "url": "#",
-            "text": "LinkedIn"
-        },
-        {
-            "url": "#",
-            "text": "CodePen"
         }
     ],
-    "editThisPageRootUrl": "https://github.com/ita-design-system/eleventy-libdoc/blob/main"
+    "editThisPageRootUrl": "https://github.com/alype/AISC-docs/blob/main",
+    "gitLastModifiedDate": true,
+    "tocEnabled": true,
+    "tocHtmlTags": ["h2", "h3", "h4"],
+    "tocMinTags": 2,
+    "htmlBasePathPrefix": "",
+    "hljsLanguages": [
+        "xml",
+        "javascript",
+        "json",
+        "yaml",
+        "liquid",
+        "markdown",
+        "css",
+        "html",
+        "bash",
+        "powershell"
+    ]
 }
