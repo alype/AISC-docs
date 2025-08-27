@@ -1,24 +1,32 @@
 ---
-title: Hello World!
-description: I am the home page of this project
+title: Bienvenue sur ma documentation AISC
+description: Pour mettre en ligne mes cours et mes découvertes en admin-sys
 layout: libdoc_page.liquid
 permalink: /index.html
 tags:
-    - widgets
+    - Bienvenue
+    - AISC
 ---
-{% alert 'It seems to be the beginning of a great documentation story!', 'warning', 'Howdy!' %}
 
-## Let’s start!
+## Contenu du site
 
-1. {% iconCard 'Configure', 'Start entering your own settings into `settings.json` at the root of the project. <br>[Configuration documentation](https://eleventy-libdoc.netlify.app/configuration/).', 'faders' %}
-2. {% iconCard 'Write', 'Easily write documentation with Markdown and <abbr title="Hyper Text Markup Language">HTML</abbr>. <br>[Create content](https://eleventy-libdoc.netlify.app/creating-content/).', 'pen' %}
+Vous trouverez sur ce site de documentation l'intégralité de mes notes de cours d'<abbr title="Administration d'Infrastructure Sécurisée & Cloud">AISC</abbr>.
 
-## Get help
+Sur le [blog](/posts/), j'écrirais sur mes découvertes en admin-sys de manière plus générale.
 
-LibDoc’s website contains a comprehensive documentation about how to install, configure and :
+## A propos
 
-* [LibDoc’s homepage](https://eleventy-libdoc.netlify.app) <br>The website containing LibDocs’s presentation and comprehensive documentation.
-    * [Front matter](https://eleventy-libdoc.netlify.app/front-matter/) <br>Documentation of all front matter settings related to a LibDoc page.
-    * [Primary navigation](https://eleventy-libdoc.netlify.app/primary-navigation/) <br>Detailed features of LibDoc’s primary navigation.
-    * [SEO](https://eleventy-libdoc.netlify.app/configuration/seo/) <br>How LibDoc’s configuration and pages parameters are applied for Search Engine Optimization.
-    * [Credits](https://eleventy-libdoc.netlify.app/configuration/credits/) LibDoc could not work without these resources.
+Moi c'est Alype, une étudiante en administration système. J'ai validé un Bac+2 de technicienne informatique, et j'ai surtout pu m'exercer sur des serveurs et machines Windows à l'école et en entreprise. J'apprends actuellement le support sur des machines Apple, et je me forme de mon côté sur des serveurs linux, en autohébergement.
+
+Je m'intéresse au logiciel libre depuis presque 15 ans, et même si j'ai conscience que le libre ne résoud pas tout les problèmes, je suis persuadée que le monde de l'informatique gagnerait à se soucier plus largement d'ouverture, de transparence, d'entraide et de respect des internautes.
+
+D'un point de vue technique, il me reste beaucoup à apprendre, et même si je vais tenter d'être la plus précise et exacte possible sur ce site, des erreurs sont tout à fait possibles !
+
+Sous chaque page, vous trouverez le lien d'edit sur le dépot git : hésitez pas à envoyer une PR si vous trouvez des typos ou pour corriger / ajouter des trucs, c'est là pour ça :D
+
+## Quelques liens utiles
+
+- [Ma documentation TSSR](https://tssr.vercel.app), le site de mes cours de <abbr title="Technicien Supérieur Système et Réseau">TSSR</abbr>.
+- [Cours DevOps]() TODO : retrouver le lien !
+- [Documentation LibDoc](https://eleventy-libdoc.netlify.app), la doc du thème de ce site.
+- [Une page de pense-bête](/codes/), pour que je n'oublie pas comment écrire sur ce site.
